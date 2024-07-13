@@ -104,9 +104,9 @@
                           expire: False
                     name: cloudinitdisk
       loop:
-        - { role: "web", env: "prod", id: 1 }
-        - { role: "app", env: "prod", id: 2 }
-        - { role: "db", env: "prod", id: 3 }
-        - { role: "web", env: "dev", id: 4 }
-        - { role: "app", env: "dev", id: 5 }
-        - { role: "db", env: "dev", id: 6 }
+        - { role: "web", env: "uat", id: 1 }
+        - { role: "app", env: "uat", id: 2 }
+        - { role: "db", env: "uat", id: 3 }
+        - { role: "web", env: "train", id: 4 }
+        - { role: "app", env: "train", id: 5 }
+        - { role: "db", env: "train", id: 6 }
